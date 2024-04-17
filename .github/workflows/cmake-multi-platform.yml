@@ -33,7 +33,7 @@ target_link_libraries(picodexed PUBLIC synth_dexed pico_stdlib pico_multicore ti
 target_compile_definitions(picodexed PRIVATE
     PICO_AUDIO_I2S_MONO_OUTPUT=1
     PICO_AUDIO_I2S_MONO_INPUT=1
-	USE_AUDIO_I2S=1
+USE_AUDIO_I2S=1
     USE_AUDIO_PWM=1
 )
 
